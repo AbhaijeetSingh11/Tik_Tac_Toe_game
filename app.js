@@ -22,6 +22,15 @@ boxes.forEach((box)=>{
             box.innerText="X";
             turnO=true;
         }
-    })
+        box.disabled=true;
+        checkwinner();
+    });
 }
-)
+);
+
+const checkwinner=()=>{
+    for(let pattern of winpatterns){
+        console.log(pattern[0],pattern[1],pattern[2]);
+        console.log(boxes [pattern[0]],boxes[pattern[1]],boxes[pattern[2]]);
+    }
+}

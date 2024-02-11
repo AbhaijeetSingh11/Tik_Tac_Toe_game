@@ -39,6 +39,8 @@ body{
     border: 1px black solid;
     border-radius: 18px;
     box-shadow: 5px 4px 4px rgb(97, 96, 96);
+    background-color: white;
+    font-size: large;
 }
 #resetkey{
     height: 2.5em;
