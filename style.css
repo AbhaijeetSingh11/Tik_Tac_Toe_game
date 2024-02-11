@@ -33,14 +33,19 @@ body{
     border-radius: 18px;
 }
 .box{
-    height: 80%;
-    width: 80%;
+    height: 6rem;
+    width: 6rem;
     margin-left: 9px;
     border: 1px black solid;
     border-radius: 18px;
     box-shadow: 5px 4px 4px rgb(97, 96, 96);
     background-color: white;
     font-size: large;
+    transition: transform;
+    transition-duration: 4s;
+}
+.box :hover{
+    transform: scale(3);   
 }
 #resetkey{
     height: 2.5em;
@@ -70,7 +75,7 @@ body{
 }
 .msg_container p{
    color: black;
-   font-size: 10vmin;
+   font-size: 6vmin;
 }
 .hide{
     display: none;
